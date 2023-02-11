@@ -1,0 +1,105 @@
+section .container{
+    padding-left: 190px;
+}
+h1{
+    margin: 100px 0px;
+    font-weight: 700;
+    text-align: left;
+}
+@media screen and (max-width: 993px) {
+    h1{
+        text-align: center !important;
+    }
+    section .container{
+        padding: 0 !important;
+    }
+    h2, p{
+        text-align: center !important;
+    }
+    h2{
+        margin-bottom: 30px !important;
+    }
+    .section-about__img{
+        margin: 30px 0px !important;
+    }
+    .content-text-wrapper{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .content-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content-wrapper-2{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    button{
+        margin-bottom: 30px !important;
+    }
+}
+.content-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content-wrapper h2, .content-wrapper p{
+    text-align: left;
+    font-weight: 500;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 46px;
+    margin-top: 0px;
+    text-align: left;
+}
+.section-about__text--1{
+    margin-bottom: 20px;
+}
+.content-text-wrapper{
+    margin-left: 94px;
+    max-width: 500px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.content-wrapper-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-top: 130px;
+}
+.content-wrapper-2 p, .content-wrapper-2 h2{
+    margin-left: 0px;
+    margin-right: 123px;
+}
+.content-text-wrapper2{
+    margin-left: 0px;
+    max-width: 650px;
+}
+button{
+    padding: 22px 50px;
+    min-width: 260px;
+    min-height: 68px;
+    background: #6e9c9f;
+    color: #fff;
+    border: none;
+    text-align: center;
+    margin: 152px 0px;
+}
+button:hover{
+    font-weight: 500;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 378px) {
+    .content-text-wrapper{
+        max-width: 350px !important;
+    }
+}
