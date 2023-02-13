@@ -90,7 +90,7 @@ button{
     color: #fff;
     border: none;
     text-align: center;
-    margin: 152px 0px;
+    margin-top: 152px;
 }
 button:hover{
     font-weight: 500;
