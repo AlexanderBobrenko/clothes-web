@@ -65,6 +65,7 @@ h2{
 }
 .form-send-message p{
     padding-left: 10px;
+    margin: 0px !important;
 }
 @media screen and (max-width: 993px) {
     .form-send-message{
